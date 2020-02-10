@@ -1,8 +1,8 @@
 //
-//  ErrorMessage.swift
+//  GFError.swift
 //  GHFollowers
 //
-//  Created by Scott Bennett on 2/6/20.
+//  Created by Scott Bennett on 2/10/20.
 //  Copyright © 2020 Scott Bennett. All rights reserved.
 //
 
