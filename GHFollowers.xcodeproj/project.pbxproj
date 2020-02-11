@@ -38,6 +38,7 @@
 		F18AE65F23F2FF9E00B56695 /* GFRepoItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18AE65E23F2FF9E00B56695 /* GFRepoItemVC.swift */; };
 		F18AE66123F301F500B56695 /* GFFollowerItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18AE66023F301F500B56695 /* GFFollowerItemVC.swift */; };
 		F18CE7CE23F3398D00A64690 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18CE7CD23F3398D00A64690 /* Date+Ext.swift */; };
+		F18CE7D023F34F2A00A64690 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18CE7CF23F34F2A00A64690 /* PersistenceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		F18AE65E23F2FF9E00B56695 /* GFRepoItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFRepoItemVC.swift; sourceTree = "<group>"; };
 		F18AE66023F301F500B56695 /* GFFollowerItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFFollowerItemVC.swift; sourceTree = "<group>"; };
 		F18CE7CD23F3398D00A64690 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		F18CE7CF23F34F2A00A64690 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				F1548E4F23ECED1300BDAAC8 /* NetworkManager.swift */,
+				F18CE7CF23F34F2A00A64690 /* PersistenceManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -353,6 +356,7 @@
 				F1548E3E23ECBE8900BDAAC8 /* GFTitleLabel.swift in Sources */,
 				F18AE65D23F267B800B56695 /* GFItemInfoVC.swift in Sources */,
 				F18AE66123F301F500B56695 /* GFFollowerItemVC.swift in Sources */,
+				F18CE7D023F34F2A00A64690 /* PersistenceManager.swift in Sources */,
 				F1548E3C23ECBA3B00BDAAC8 /* String+Ext.swift in Sources */,
 				F1548E5A23EE1B8A00BDAAC8 /* UIHelper.swift in Sources */,
 				F18CE7CE23F3398D00A64690 /* Date+Ext.swift in Sources */,
