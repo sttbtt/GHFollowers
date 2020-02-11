@@ -34,6 +34,7 @@
 		F18AE65723F213D200B56695 /* GFSecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18AE65623F213D200B56695 /* GFSecondaryTitleLabel.swift */; };
 		F18AE65923F21E2300B56695 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18AE65823F21E2300B56695 /* Constants.swift */; };
 		F18AE65B23F260A300B56695 /* GFItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18AE65A23F260A300B56695 /* GFItemInfoView.swift */; };
+		F18AE65D23F267B800B56695 /* GFItemInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18AE65C23F267B800B56695 /* GFItemInfoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		F18AE65623F213D200B56695 /* GFSecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFSecondaryTitleLabel.swift; sourceTree = "<group>"; };
 		F18AE65823F21E2300B56695 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F18AE65A23F260A300B56695 /* GFItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoView.swift; sourceTree = "<group>"; };
+		F18AE65C23F267B800B56695 /* GFItemInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,6 +230,7 @@
 			children = (
 				F1548E4123ECC12A00BDAAC8 /* GFAlertVC.swift */,
 				F18AE65423F2136F00B56695 /* GFUserInfoHeaderVC.swift */,
+				F18AE65C23F267B800B56695 /* GFItemInfoVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 				F1548E4B23ECDF6C00BDAAC8 /* Follower.swift in Sources */,
 				F1868A0023EB613D007920FA /* AppDelegate.swift in Sources */,
 				F1548E3E23ECBE8900BDAAC8 /* GFTitleLabel.swift in Sources */,
+				F18AE65D23F267B800B56695 /* GFItemInfoVC.swift in Sources */,
 				F1548E3C23ECBA3B00BDAAC8 /* String+Ext.swift in Sources */,
 				F1548E5A23EE1B8A00BDAAC8 /* UIHelper.swift in Sources */,
 				F1548E5023ECED1300BDAAC8 /* NetworkManager.swift in Sources */,
