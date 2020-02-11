@@ -39,6 +39,7 @@
 		F18AE66123F301F500B56695 /* GFFollowerItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18AE66023F301F500B56695 /* GFFollowerItemVC.swift */; };
 		F18CE7CE23F3398D00A64690 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18CE7CD23F3398D00A64690 /* Date+Ext.swift */; };
 		F18CE7D023F34F2A00A64690 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18CE7CF23F34F2A00A64690 /* PersistenceManager.swift */; };
+		F18CE7D223F3643800A64690 /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18CE7D123F3643800A64690 /* FavoriteCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,7 @@
 		F18AE66023F301F500B56695 /* GFFollowerItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFFollowerItemVC.swift; sourceTree = "<group>"; };
 		F18CE7CD23F3398D00A64690 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		F18CE7CF23F34F2A00A64690 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		F18CE7D123F3643800A64690 /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				F1548E5523EDD27E00BDAAC8 /* FollowerCell.swift */,
+				F18CE7D123F3643800A64690 /* FavoriteCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 				F1548E5623EDD27E00BDAAC8 /* FollowerCell.swift in Sources */,
 				F18AE65F23F2FF9E00B56695 /* GFRepoItemVC.swift in Sources */,
 				F1548E5823EDD31100BDAAC8 /* GFAvatarImageView.swift in Sources */,
+				F18CE7D223F3643800A64690 /* FavoriteCell.swift in Sources */,
 				F1548E4223ECC12A00BDAAC8 /* GFAlertVC.swift in Sources */,
 				F18AE65123F2049C00B56695 /* UserInfoVC.swift in Sources */,
 				F1548E4B23ECDF6C00BDAAC8 /* Follower.swift in Sources */,
