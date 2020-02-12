@@ -43,6 +43,7 @@
 		F18CE7D923F3BA5700A64690 /* GFAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18CE7D823F3BA5700A64690 /* GFAlertContainerView.swift */; };
 		F18CE7DB23F3C2E400A64690 /* GFDataLoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18CE7DA23F3C2E400A64690 /* GFDataLoadingVC.swift */; };
 		F18CE7DD23F4A95500A64690 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18CE7DC23F4A95500A64690 /* UIView+Ext.swift */; };
+		F18CE7DF23F4B88E00A64690 /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18CE7DE23F4B88E00A64690 /* UITableView+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +85,7 @@
 		F18CE7D823F3BA5700A64690 /* GFAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertContainerView.swift; sourceTree = "<group>"; };
 		F18CE7DA23F3C2E400A64690 /* GFDataLoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFDataLoadingVC.swift; sourceTree = "<group>"; };
 		F18CE7DC23F4A95500A64690 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		F18CE7DE23F4B88E00A64690 /* UITableView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 				F1548E4323ECC78A00BDAAC8 /* UIViewController+Ext.swift */,
 				F18CE7CD23F3398D00A64690 /* Date+Ext.swift */,
 				F18CE7DC23F4A95500A64690 /* UIView+Ext.swift */,
+				F18CE7DE23F4B88E00A64690 /* UITableView+Ext.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -387,6 +390,7 @@
 				F1548E5023ECED1300BDAAC8 /* NetworkManager.swift in Sources */,
 				F1868A0223EB613D007920FA /* SceneDelegate.swift in Sources */,
 				F18AE65B23F260A300B56695 /* GFItemInfoView.swift in Sources */,
+				F18CE7DF23F4B88E00A64690 /* UITableView+Ext.swift in Sources */,
 				F1548E4023ECBFFE00BDAAC8 /* GFBodyLabel.swift in Sources */,
 				F18AE65923F21E2300B56695 /* Constants.swift in Sources */,
 			);
