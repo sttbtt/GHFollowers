@@ -42,6 +42,7 @@
 		F18CE7D523F3AEFB00A64690 /* GFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18CE7D423F3AEFB00A64690 /* GFTabBarController.swift */; };
 		F18CE7D923F3BA5700A64690 /* GFAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18CE7D823F3BA5700A64690 /* GFAlertContainerView.swift */; };
 		F18CE7DB23F3C2E400A64690 /* GFDataLoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18CE7DA23F3C2E400A64690 /* GFDataLoadingVC.swift */; };
+		F18CE7DD23F4A95500A64690 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18CE7DC23F4A95500A64690 /* UIView+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +83,7 @@
 		F18CE7D423F3AEFB00A64690 /* GFTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTabBarController.swift; sourceTree = "<group>"; };
 		F18CE7D823F3BA5700A64690 /* GFAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertContainerView.swift; sourceTree = "<group>"; };
 		F18CE7DA23F3C2E400A64690 /* GFDataLoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFDataLoadingVC.swift; sourceTree = "<group>"; };
+		F18CE7DC23F4A95500A64690 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 			children = (
 				F1548E4323ECC78A00BDAAC8 /* UIViewController+Ext.swift */,
 				F18CE7CD23F3398D00A64690 /* Date+Ext.swift */,
+				F18CE7DC23F4A95500A64690 /* UIView+Ext.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -352,6 +355,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F18CE7DD23F4A95500A64690 /* UIView+Ext.swift in Sources */,
 				F1868A1A23EB85D3007920FA /* GFTextField.swift in Sources */,
 				F1868A1623EB71E7007920FA /* FavoritesListVC.swift in Sources */,
 				F1548E4423ECC78A00BDAAC8 /* UIViewController+Ext.swift in Sources */,
