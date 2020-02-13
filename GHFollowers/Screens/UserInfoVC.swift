@@ -25,7 +25,7 @@ class UserInfoVC: GFDataLoadingVC {
     
     var username: String!
     weak var delegate: UeserInfoVCDelegate!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         configureViewController()
@@ -71,7 +71,6 @@ class UserInfoVC: GFDataLoadingVC {
     
     
     func configureUIElements(with user: User) {
-        
         self.add(childVC: GFRepoItemVC(user: user, delegate: self), to: self.itemViewOne)
         self.add(childVC: GFFollowerItemVC(user: user, delegate: self), to: self.itemViewTwo)
         self.add(childVC: GFUserInfoHeaderVC(user: user), to: self.headerView)
@@ -137,6 +136,7 @@ extension UserInfoVC: GFRepoItemVCDelegate {
     }
 }
 
+
 extension UserInfoVC: GFFollowerItemVCDelegate {
     
     func didTapGetFollowers(for user: User) {
@@ -144,7 +144,7 @@ extension UserInfoVC: GFFollowerItemVCDelegate {
             presentGFAlertOnMainThread(title: "No followers", message: "This user has no followers. What a shame 😞", buttonTitle: "So Sad")
             return
         }
-
+        
         delegate.didRequestFollowers(for: user.login)
         dismissVC()
     }

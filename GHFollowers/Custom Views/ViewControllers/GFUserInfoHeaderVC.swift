@@ -10,12 +10,12 @@ import UIKit
 
 class GFUserInfoHeaderVC: UIViewController {
     
-    let avatarImageView = GFAvatarImageView(frame: .zero)
-    let usernameLabel = GFTitleLabel(textAlignment: .left, fontSize: 34)
-    let nameLabel = GFSecondaryTitleLabel(fontSize: 18)
-    let loacationImageView = UIImageView()
-    let locationLabel = GFSecondaryTitleLabel(fontSize: 18)
-    let bioLabel = GFBodyLabel(textAlignment: .left)
+    let avatarImageView     = GFAvatarImageView(frame: .zero)
+    let usernameLabel       = GFTitleLabel(textAlignment: .left, fontSize: 34)
+    let nameLabel           = GFSecondaryTitleLabel(fontSize: 18)
+    let loacationImageView  = UIImageView()
+    let locationLabel       = GFSecondaryTitleLabel(fontSize: 18)
+    let bioLabel            = GFBodyLabel(textAlignment: .left)
     
     var user: User!
     
@@ -33,41 +33,28 @@ class GFUserInfoHeaderVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        addSubviews()
+        view.addSubviews(avatarImageView, usernameLabel, nameLabel, loacationImageView, locationLabel, bioLabel)
         layoutUI()
         configureUIElements()
     }
     
     
     func configureUIElements() {
-        downloadAvatarImage()
-        usernameLabel.text = user.login
-        nameLabel.text = user.name ?? ""
-        locationLabel.text = user.location ?? "No Location"
-        bioLabel.text = user.bio ?? "No bio available"
-        bioLabel.numberOfLines = 3
+        avatarImageView.downloadImage(fromURL: user.avatarUrl)
+        usernameLabel.text      = user.login
+        nameLabel.text          = user.name ?? ""
+        locationLabel.text      = user.location ?? "No Location"
+        bioLabel.text           = user.bio ?? "No bio available"
+        bioLabel.numberOfLines  = 3
         
-        loacationImageView.image = SFSymbols.location
-        loacationImageView.tintColor = .secondaryLabel
-    }
-    
-    
-    func downloadAvatarImage() {
-        NetworkManager.shared.downloadImage(from: user.avatarUrl) { [weak self] image in
-            guard let self = self else { return }
-            DispatchQueue.main.async { self.avatarImageView.image = image }
-        }
-    }
-    
-    
-    func addSubviews() {
-        view.addSubviews(avatarImageView, usernameLabel, nameLabel, loacationImageView, locationLabel, bioLabel)
+        loacationImageView.image        = SFSymbols.location
+        loacationImageView.tintColor    = .secondaryLabel
     }
     
     
     func layoutUI() {
-        let padding: CGFloat = 20
-        let textImagePadding: CGFloat = 12
+        let padding: CGFloat            = 20
+        let textImagePadding: CGFloat   = 12
         loacationImageView.translatesAutoresizingMaskIntoConstraints = false
         
         NSLayoutConstraint.activate([
