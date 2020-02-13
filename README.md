@@ -1,4 +1,4 @@
-# GHFollowers
+# GitHub Followers
 
 This project is based on a course given by Sean Allen.
 
